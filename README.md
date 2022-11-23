@@ -14,6 +14,7 @@ Test approach followed:
                 3.  Configuring the test cases in testng. Xml
                 4.  Configure testng. Xml in pom. Xml under surfire plugin
                 5.  Run the pom. Xml using maven commands
+		6.  Appium server should be up and running, so that automation code will execute in appium server which we configured in remoteserver url
 	
 Console Output
 		The console output is more intuitive and better readable as the default one of maven,testng and Selenium. 
