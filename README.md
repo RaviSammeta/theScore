@@ -6,7 +6,7 @@ Software and tools used:
 		1.  Eclipse IDE
 		2.  Selenium 3.141.0 jar dependency
 		3.  testng 6.8.8 jar dependency
-		4.  appium java client 8.2.0 jar dependency
+		4.  appium java client 8.2.0 jar dependency   
 
 Test approach followed:
                 1.  Creating the project with maven dependencies
