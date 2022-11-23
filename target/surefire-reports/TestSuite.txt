@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 28.298 sec <<< FAILURE! - in TestSuite
+setUp(theScore.TheScore)  Time elapsed: 28.076 sec  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20249ms. 
+Host info: host: 'DESKTOP-QK4QCGL', ip: '192.168.18.36'
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {BROWSER_NAME: Android, VERSION: 12.0, appActivity: ui.MainActivity, appPackage: com.fivemobile.thescore, deviceName: vivo, platformName: ANDROID, setNativeWebScreenshot: true}], desiredCapabilities=Capabilities {BROWSER_NAME: Android, VERSION: 12.0, appActivity: ui.MainActivity, appPackage: com.fivemobile.thescore, deviceName: vivo, platformName: ANDROID, setNativeWebScreenshot: true}}]
+Capabilities {}
+	at theScore.TheScore.setUp(TheScore.java:45)
+
